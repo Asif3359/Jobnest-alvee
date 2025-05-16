@@ -25,7 +25,8 @@ export default function RootLayout() {
         <Stack.Screen name="auth/recruiter-login" options={{ headerShown: false }} />
         <Stack.Screen name="auth/job-seeker-signup" options={{ headerShown: false }} />
         <Stack.Screen name="auth/recruiter-signup" options={{ headerShown: false }} />
-        <Stack.Screen name="auth/job-seeker-signup" options={{ headerShown: false }} />
+        <Stack.Screen name="seeker/index" options={{ headerTitle: 'Job Seeker', headerShown: true }} />
+        <Stack.Screen name="recruiter/index" options={{ headerTitle: 'Recruiter', headerShown: true }} />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
